@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big MongoData</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/main.css') }}"
+    />
+    <script
+      src="https://kit.fontawesome.com/4466f858b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <body>
+      <div class="wrapper-content">
+        <aside class="sidebar">
+          <nav class="nav-bar">
+            <div class="upper-nav">
+              <div class="nav-wrapper">
+                <div class="upper-nav-group flex-r-s-s">
+                  <div class="nav-bar-profile-img">
+                    <figure class="profile-logo flex-r-c-c tg-primary-border">
+                      <img
+                        src="{{ url_for('static', filename='assets/logos/main-logo.png') }}"
+                        alt="Foto de perfil"
+                        aria-hidden="true"
+                        class="profile-img"
+                      />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-links-container" tabindex="0" role="tree">
+              <div class="nav-group flex-r-c-c">
+                <nav-item>
+                  <a href="#">Dashboard</a>
+                  <i class="fas fa-chart-pie"></i>
+                </nav-item>
+                <nav-item>
+                  <a href="#">Documentación</a>
+                  <i class="fas fa-atlas"></i>
+                </nav-item>
+                <nav-item>
+                  <a href="#">Estadisticás</a>
+                  <i class="fas fa-chart-line"></i>
+                </nav-item>
+                <nav-item>
+                  <a href="#">Vision Pro</a>
+                  <i class="fas fa-brain"></i>
+                </nav-item>
+                <nav-item>
+                  <a href="#">Integraciones</a>
+                  <i class="fas fa-wrench"></i>
+                </nav-item>
+              </div>
+            </div>
+            <div class="nav-group">
+              <nav-item>
+                <a href="#">Ajustes</a>
+                <i class="fas fa-puzzle-piece"></i>
+              </nav-item>
+              <nav-item class="profile">
+                <a href="#">
+                  <img
+                    src="{{ url_for('static', filename='assets/images/cr7.jpg') }}"
+                    alt=""
+                  />
+                </a>
+              </nav-item>
+            </div>
+            <button class="navbar-toggle">
+              <span class="icon-toggle flex-r-c-c">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </nav>
+        </aside>
+        <header></header>
+        <main class="main-content">
+          <div class="wrapper-main">
+            <div class="card consultas">
+              <h2>Acá se hacen consultas</h2>
+              <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Buscar..." />
+              </div>
+            </div>
+            <div class="card resumen1">
+              <h2>Resumen 1</h2>
+            </div>
+            <div class="card info1">
+              <h2>Info 1</h2>
+            </div>
+            <div class="card info2">
+              <h2>Info 2</h2>
+            </div>
+            <div class="card resumen2">
+              <h2>Resumen 2</h2>
+            </div>
+          </div>
+        </main>
+      </div>
+    </body>
+  </body>
+</html>
