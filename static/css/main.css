@@ -190,7 +190,6 @@ nav-item.profile a img {
   position: relative;
   padding-top: 70px;
   width: 100%;
-  overflow-x: hidden;
 }
 .wrapper-main {
   display: flex;
